@@ -23,12 +23,14 @@ body {
 }
 @media screen and (max-width:768px) {
     .home-container {
-        margin-top:75px;
+        margin-top: 75px;
+        margin-bottom: 75px;
     }
 }
 @media screen and (max-width:380px) {
     .home-container {
-        margin-top:50px;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
 }
 
