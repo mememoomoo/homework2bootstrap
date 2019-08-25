@@ -36,6 +36,10 @@ body {
         margin-bottom: 100px;
         min-height: none;
         vertical-align: none;
+        width: auto;
+        height: auto;
+        vertical-align: none;
+        align-items:none;
     }
 }
 
