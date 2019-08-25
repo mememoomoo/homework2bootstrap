@@ -25,12 +25,14 @@ body {
     .home-container {
         margin-top: 75px;
         margin-bottom: 75px;
+        min-height: none;
     }
 }
 @media screen and (max-width:380px) {
     .home-container {
         margin-top: 100px;
         margin-bottom: 100px;
+        min-height: none;
     }
 }
 
