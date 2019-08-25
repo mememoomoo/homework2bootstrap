@@ -39,8 +39,8 @@ body {
 
 @media screen and (max-width:380px) {
     .home-container {
-        margin-top: 100px;
-        margin-bottom: 100px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         min-height: none;
         vertical-align: none;
         width: auto;
@@ -90,6 +90,18 @@ body {
 
 .video-fluid{
     position: fixed;
+}
+
+@media screen and (max-width:768px) {
+    .video-fluid {
+        position: none;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .video-fluid {
+        position: none;
+    }
 }
 
 /* Sub Pages */
