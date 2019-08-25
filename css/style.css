@@ -80,6 +80,12 @@ body {
     }
 }
 
+@media screen and (max-width:380px) {
+    .jumbotron {
+        background-image: url("../assets/tiffany-nutt-0ClfreiNppM-unsplash-380x750.jpg");
+    }
+}
+
 .profile-image {
     border-radius: 150px;
     padding: 20px;
