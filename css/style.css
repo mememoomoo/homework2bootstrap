@@ -62,6 +62,12 @@ body {
     }
 }
 
+@media screen and (max-width:380px) {
+    .home-paragraph {
+        font-size: 1.0rem;
+    }
+}
+
 /* Sub Pages */
 .jumbotron {
     height: 550px;
