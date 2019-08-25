@@ -23,12 +23,12 @@ body {
 }
 @media screen and (max-width:768px) {
     .home-container {
-        margin:75px;
+        margin-top:75px;
     }
 }
 @media screen and (max-width:380px) {
     .home-container {
-        margin:50px;
+        margin-top:50px;
     }
 }
 
@@ -70,6 +70,12 @@ body {
     display: flex;
     align-items: center;
     background-position: center;
+}
+
+@media screen and (max-width:768px) {
+    .jumbotron {
+        background-image: url("../assets/tiffany-nutt-0ClfreiNppM-unsplash-768x550.jpg");
+    }
 }
 
 .profile-image {
