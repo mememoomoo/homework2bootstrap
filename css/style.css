@@ -116,9 +116,23 @@ body {
 }
 
 .form-row {
-    Margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
 }
 
-.form-btn {
-    margin-right: 20px;
+.form-control {
+    background-color: transparent;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000000;
+    color: #000000;
+    border-radius: 0px;
+}
+
+.form-control:focus {
+    background-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ffffff;
+    color: #ffffff;
 }
