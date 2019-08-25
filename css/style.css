@@ -90,29 +90,35 @@ body {
     border-radius: 150px;
     padding: 20px;
 }
+
 .display-4 {
     font-family: 'Anton', sans-serif;
     text-transform: uppercase;
     font-size: 10rem;
 }
+
 @media screen and (max-width:768px) {
     .display-4 {
         font-size: 8rem;
     }
 }
+
 @media screen and (max-width:380px) {
     .display-4 {
         font-size: 5rem;
     }
 }
+
 .lead {
     font-size: 1.5rem;
 }
+
 @media screen and (max-width:768px){
     .lead {
         font-size: 1.2rem;
     }
 }
+
 .card {
     margin: 10px;
     border-color: transparent;
