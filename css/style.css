@@ -21,6 +21,7 @@ body {
     display: flex;
     align-items: center;
 }
+
 @media screen and (max-width:768px) {
     .home-container {
         margin-top: 75px;
@@ -28,6 +29,7 @@ body {
         min-height: none;
     }
 }
+
 @media screen and (max-width:380px) {
     .home-container {
         margin-top: 100px;
@@ -42,22 +44,25 @@ body {
     font-size: 10rem;
     margin: 25px;
 }
+
 @media screen and (max-width:768px) {
     .home-h2 {
         font-size: 8rem;
     }
 }
+
 @media screen and (max-width:380px) {
     .home-h2 {
         font-size: 5rem;
         padding-top: 25px;
     }
 }
+
 .home-paragraph {
     font-size: 1.3rem;
     padding: 20px;
-    overflow: scroll;
 }
+
 @media screen and (max-width:768px) {
     .home-paragraph {
         font-size: 1.1rem;
@@ -67,6 +72,7 @@ body {
 @media screen and (max-width:380px) {
     .home-paragraph {
         font-size: 1.0rem;
+        overflow: scroll;
     }
 }
 
