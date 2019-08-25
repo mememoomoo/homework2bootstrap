@@ -21,6 +21,16 @@ body {
     display: flex;
     align-items: center;
 }
+@media screen and (max-width:768px) {
+    .home-container {
+        margin:75px;
+    }
+}
+@media screen and (max-width:380px) {
+    .home-container {
+        margin:50px;
+    }
+}
 
 .home-h2 {
     font-family: 'Anton', sans-serif;
@@ -74,13 +84,11 @@ body {
 @media screen and (max-width:768px) {
     .display-4 {
         font-size: 8rem;
-        padding-top: 50px;
     }
 }
 @media screen and (max-width:380px) {
     .display-4 {
         font-size: 5rem;
-        padding-top: 30px;
     }
 }
 .lead {
