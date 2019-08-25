@@ -36,6 +36,7 @@ body {
 @media screen and (max-width:380px) {
     .home-h2 {
         font-size: 5rem;
+        padding-top: 25px;
     }
 }
 .home-paragraph {
@@ -104,6 +105,7 @@ body {
     border-radius: 0px;
     text-transform: uppercase;
     padding-bottom: 10px;
+    margin-bottom: 75px;
 }
 
 .btn:hover {
